@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h2 style="background-color: pink;">Not started</h2>
+            <div class="card" draggable="true" ondragstart="dragStart(event)">Card 4</div>
+            <div class="card" draggable="true" ondragstart="dragStart(event)">Card 1</div>
+            <div class="card" draggable="true" ondragstart="dragStart(event)">Card 5</div>
+            <button class="new-card">+ New</button>
+        </div>
+        <div class="column">
+            <h2 style="background-color: rgb(237, 245, 209);">In progress</h2>
+            <div class="card" draggable="true" ondragstart="dragStart(event)">Card 2</div>
+            <button class="new-card">+ New</button>
+        </div>
+        <div class="column">
+            <h2 style="background-color: rgb(217, 245, 235);">Completed</h2>
+            <div class="card" draggable="true" ondragstart="dragStart(event)">Card 3</div>
+            <button class="new-card">+ New</button>
+        </div>
+
+        
+
+        
+    <script src="script.js"></script>
+   
+</body>
+</html>
